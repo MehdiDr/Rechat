@@ -1,7 +1,8 @@
 {
-  "name": "rechat",
+  "name": "ReChat",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "dependencies": {
     "faker": "^4.1.0",
     "lodash": "^4.17.10",

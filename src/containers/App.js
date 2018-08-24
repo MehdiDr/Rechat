@@ -3,7 +3,7 @@ import _ from 'lodash';
 import store from '../store';
 import Sidebar from '../components/Sidebar';
 import Main from '../components/Main';
-import './App.css';
+import './style/App.css';
 
 const App = () => {
     const { contacts, user, activeUserId } = store.getState()

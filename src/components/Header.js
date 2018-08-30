@@ -6,7 +6,7 @@ function Header({ user }) {
   return (
     <header className='Header'>
       <h1 className='Header__name'>{name}</h1>
-      <img className='User__pic' src={profile_pic} alt={name}/>
+      <img className='User_pic' src={profile_pic} alt={name}/>
       <p className='Header__status'>{status}</p>
     </header>
   );
